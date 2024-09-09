@@ -9,16 +9,13 @@ const Home = () => {
         <img src="/cochi-logo-cropped.png" alt="Logo" className="logo" />
         <nav className="nav-links">
           <Link to="/portfolio" className="nav-link">
-            Portfolio
+            My Work
           </Link>
           <Link to="/booking" className="nav-link">
             Book Now
           </Link>
-          <Link to="/payment" className="nav-link">
-            Payment
-          </Link>
-          <Link to="/admin" className="nav-link">
-            Admin
+          <Link to="/pricing" className="nav-link">
+            Pricing
           </Link>
         </nav>
       </header>

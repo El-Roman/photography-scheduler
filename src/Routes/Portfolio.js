@@ -13,23 +13,19 @@ const Portfolio = () => {
               Home
             </Link>
             <Link to="/portfolio" className="nav-link">
-              Portfolio
+              My Work
             </Link>
             <Link to="/booking" className="nav-link">
               Book Now
             </Link>
-            <Link to="/payment" className="nav-link">
-              Payment
-            </Link>
-            <Link to="/admin" className="nav-link">
-              Admin
+            <Link to="/pricing" className="nav-link">
+              Pricing
             </Link>
           </nav>
         </header>
       </div>
-          <h1>My Work</h1>
-      <p>    Below are some of my recent photography projects. Click on the images to view larger versions.</p>
-      {/* Add your portfolio content here */}
+      <h1>My Work</h1>
+      <p> Here you can see all my work</p>
     </div>
   );
 };

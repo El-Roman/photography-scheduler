@@ -1,20 +1,18 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./Routes/Home";
-import Portfolio from "./Routes/Portfolio";
+import Pricing from "./Routes/Pricing";
 import Booking from "./Routes/Booking";
-import Payment from "./Routes/Payment";
-import Admin from "./Routes/Admin";
+import Portfolio from "./Routes/Portfolio";
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/pricing" element={<Pricing />} />
         <Route path="/booking" element={<Booking />} />
-        <Route path="/payment" element={<Payment />} />
-        <Route path="/admin" element={<Admin />} />
+        <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
     </Router>
   );

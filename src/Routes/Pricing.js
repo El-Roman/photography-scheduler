@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../Styling/Home.css"; // Assuming you'll add styles in Home.css
 
-export default function Payment() {
+const Pricing = () => {
   return (
     <div>
       <div className="home-container">
@@ -13,22 +13,21 @@ export default function Payment() {
               Home
             </Link>
             <Link to="/portfolio" className="nav-link">
-              Portfolio
+              My Work
             </Link>
             <Link to="/booking" className="nav-link">
               Book Now
             </Link>
-            <Link to="/payment" className="nav-link">
-              Payment
-            </Link>
-            <Link to="/admin" className="nav-link">
-              Admin
+            <Link to="/pricing" className="nav-link">
+              Pricing
             </Link>
           </nav>
         </header>
       </div>
-      <h1>Payment</h1>
+      <h1>Pricing</h1>
       <p> Here we get paid!</p>
     </div>
   );
-}
+};
+
+export default Pricing;
